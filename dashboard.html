@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hostel Management Dashboard</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      .sidebar {
+        width: 220px;
+        height: 100vh;
+        background-color: #2c3e50;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        position: fixed;
+      }
+
+      .sidebar {
+        width: 220px;
+        background-color: #1e1e2f;
+        position: fixed;
+        height: 100vh;
+        padding-top: 30px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+      }
+      .sidebar a {
+        display: block;
+        margin: 12px 20px;
+        padding: 14px 16px;
+        background-color: #3a3a5f;
+        color: white;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+      .sidebar a:hover {
+        background-color: #5a5ac0;
+        transform: scale(1.05);
+      }
+      .main-content {
+        margin-left: 240px;
+        padding: 40px;
+      }
+      h1 {
+        color: #333;
+      }
+      p {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>🏠 Hostel <br />PG Management System</h2>
+      <a href="/students">👩‍🎓 Students</a>
+      <a href="/rooms">🏠 Rooms</a>
+      <a href="/payments">💳 Payments</a>
+      <a href="/requests">📩 Requests</a>
+      <a href="/maintenance">🛠 Maintenance</a>
+      <a href="/checkouts">🚪 Checkouts</a>
+    </div>
+    <div class="main-content">
+      <h1>Welcome to the Hostel Management Dashboard</h1>
+      <p>
+        Use the sidebar buttons to navigate different modules.<br />You can
+        manage all hostel data from here!
+      </p>
+    </div>
+  </body>
+</html>
